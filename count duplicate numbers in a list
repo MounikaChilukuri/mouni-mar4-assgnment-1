@@ -1,0 +1,3 @@
+a = ['1,2,1,4']
+result = dict((i, a.count(i)) for i in a)
+print (result)
